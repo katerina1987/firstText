@@ -5,3 +5,5 @@ def arg(*args):
     x = sum(args)*1.0/len(args)
     
 print arg(1,2)
+
+print arg()
